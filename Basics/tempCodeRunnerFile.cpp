@@ -1,7 +1,10 @@
 #include <iostream>
 using namespace std;
 int main(){
-    str name;
-    cin >> name;
-    cout <<"Hello" << name;
+    long long n,summation;
+    cin >>n;
+    for(int i=1; i<=n; i++){
+        summation += i;
+        cout << summation;
+    }
 }
