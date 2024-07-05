@@ -13,9 +13,9 @@ int main(){
         swap(a,b);
     }
     if(b > c){
-        swap(b,c);
-        if(a > c){
-            swap(a,c);
+        swap(c,b);
+        if(a > b){
+            swap(a,b);
         }
     }
     cout <<a <<endl <<b <<endl <<c <<endl <<endl;
