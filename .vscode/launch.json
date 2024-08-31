@@ -2,6 +2,20 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "hello",
+      "request": "launch",
+      "mainClass": "InJava.datatypes_conditionals.hello",
+      "projectName": "Competitive-Programing_4154b774"
+    },
+    {
+      "type": "java",
+      "name": "hello",
+      "request": "launch",
+      "mainClass": "java.datatypes_conditionals.hello",
+      "projectName": "Competitive-Programing_4154b774"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
