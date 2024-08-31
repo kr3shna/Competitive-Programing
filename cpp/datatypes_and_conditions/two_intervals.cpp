@@ -12,6 +12,6 @@ int main() {
     if (intersection_start <= intersection_end) {
         cout <<intersection_start <<" " <<intersection_end;
     } else {
-        cout << -1 << std::endl;
+        cout << -1;
     }
 }
